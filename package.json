@@ -1,6 +1,28 @@
 {
-  "name": "szympajka-ds-lib-button-test",
-  "version": "0.0.1",
+  "name": "@szympajka/ds",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "module": "index.js",
+  "scripts": {
+    "test": "exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/szympajka/ds.git"
+  },
+  "author": "Szymon Pajka",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/szympajka/ds/issues"
+  },
+  "homepage": "https://github.com/szympajka/ds#readme",
+  "exports": {
+    ".": {
+      "import": "./index.js",
+      "require": "./index.js"
+    }
+  },
   "peerDependencies": {
     "prop-types": "^15.7.2",
     "react": "^17.0.2",
